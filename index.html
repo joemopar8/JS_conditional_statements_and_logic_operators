@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS conditional Statements & Logic Operators</title>
+  </head>
+  <body>
+    <br />
+    <center>
+      <h1 id="demo">Hello World!</h1>
+    </center>
+
+    <script>
+      //   *'if', 'else', 'else if' Statements:
+      //     firstName = "John";
+      firstName = "Tim";
+      //   firstName = "Bob";
+
+      if (firstName == "John") {
+        document.getElementById("demo").innerHTML = firstName;
+      } else if (firstName == "Bob") {
+        document.getElementById("demo").innerHTML = "Howdy Bob!";
+      } else {
+        document.getElementById("demo").innerHTML = "This is not John or Bob!";
+      }
+
+      // <br />
+
+      //   *Logic Operators: && 'and', || 'or', ! 'not'
+      // firstName = "John";
+
+      // if (firstName == "John" && 4 == 4) {
+      //   document.getElementById("demo").innerHTML = firstName;
+      // } else {
+      //   document.getElementById("demo").innerHTML = "Name is Incorrect!";
+      // }
+
+      // if (firstName == "Bob" || 4 == 4) {
+      //   document.getElementById("demo").innerHTML = firstName;
+      // } else {
+      //   document.getElementById("demo").innerHTML = "Name is Incorrect!";
+      // }
+
+      // if (firstName !== "John" || (4 >= 4 && firstName !== "Bob")) {
+      //   document.getElementById("demo").innerHTML = firstName;
+      // } else {
+      //   document.getElementById("demo").innerHTML = "Name is Incorrect!";
+      // }
+    </script>
+
+    <!-- <script src="myscript.js"></script> -->
+  </body>
+</html>
