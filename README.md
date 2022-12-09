@@ -1,1 +1,1 @@
-# JS_conditional_statements_and_logic_operators
+# JS Conditional Statements and Logic Operators Tutorial
